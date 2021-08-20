@@ -1,0 +1,22 @@
+{
+  "name": "my-voley-game",
+  "version": "1.0.0",
+  "description": "Software capturar informações jogos de voley",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaa2/my-voley-game-js.git"
+  },
+  "author": "Vivian",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vaa2/my-voley-game-js/issues"
+  },
+  "homepage": "https://github.com/vaa2/my-voley-game-js#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
