@@ -8,14 +8,23 @@ module.exports = class Set{
     }
 
     getMaiorPontuador(){
-        
+        var maiorJogador = null;
+        this.pontos.forEach(
+            (ponto) => {
+                if(maiorJogador == null || (ponto.getJogador().getTotalPontosJogador() > maiorJogador.getTotalPontosJogador())){
+                    maiorJogador = ponto.getJogador();
+                }
+            }
+        );
+
+        return maiorJogador;
     }
 
     getListaPontosPorTipo(){
-        
+        var listaPOntosPorTipo = null;
     }
 
     registrarPonto(ponto){
-
+        var registrarPonto = 0;
     }
 }
